@@ -1,0 +1,7 @@
+/* If just use div, the space between two <p> tags will also be yellow */
+div p {
+    color: red;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+}

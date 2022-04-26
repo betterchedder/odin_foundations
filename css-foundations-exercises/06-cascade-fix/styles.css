@@ -1,0 +1,33 @@
+.paragraph {
+    color: hsl(0, 100%, 50%);
+}
+
+.paragraph.largeRed {
+    font-size: 22px;
+}
+
+.paragraph.smallRed {
+    font-size: 14px;
+}
+
+#Confirm {
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+
+#Cancel {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.text {
+    color: green;
+    font-size: 22px;
+}
+
+.text.redChild {
+    color: red;
+    font-size: 14px
+}

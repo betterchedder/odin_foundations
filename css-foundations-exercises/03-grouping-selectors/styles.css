@@ -1,0 +1,15 @@
+.clickMeBlack,
+.clickMeYellow {
+    font: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.clickMeBlack {
+    background-color: black;
+    color: white;
+}
+
+.clickMeYellow {
+    background-color: yellow;
+    color: black
+}

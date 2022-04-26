@@ -1,0 +1,25 @@
+/*Removes padding and margin*/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+.box.one {
+    background-color: #EB5757;
+    border: 30px solid #9851E0;
+    padding: 10px;
+    margin: 60px;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+.box.two {
+    background-color: #2D9CD8;
+    border: 30px solid #27AE60;
+    padding: 10px;
+    margin: 60px;
+    height: 100px;
+    width: 100px;
+}

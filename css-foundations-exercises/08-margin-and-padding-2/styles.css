@@ -1,0 +1,51 @@
+body {
+    background: #eee;
+    font-family: sans-serif;
+}
+
+.outer_page {
+    width: 400px;
+    background: #fff;
+    margin: 16px auto;
+    padding: 8px;
+  }
+
+
+.title_card,
+.paragraph_card,
+.div_button.main_container {
+    background-color: #e3f4ff;
+}
+
+.title_card {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    padding: 8px
+}
+
+.paragraph_card {
+    margin-bottom: 8px;
+    padding: 16px 8px;
+}
+
+.div_button.main_container {
+    text-align: center;
+    padding: 8px
+}
+
+.div_button {
+    text-align: center;
+}
+
+button {
+    display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
+}
+
+.title_card {
+    font-weight: bold;
+
+}
+

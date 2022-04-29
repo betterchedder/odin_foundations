@@ -1,0 +1,87 @@
+body {
+    background-color: aquamarine;
+}
+
+.titleBox {
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    padding: 15px;
+    border: 4px solid blue;
+  }
+
+.one,
+.three,
+.two {
+    justify-content: center;
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    flex: 2 auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.two {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bodyBox {
+    display: flex;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.bodyBox.leftSide {
+    flex: 1;
+    background: rosybrown;
+    border: 4px solid brown;
+    height: 300px;
+}
+
+.bodyBox.rightSide {
+    flex: 1;
+    flex-direction: column;
+}
+
+.bodyBox.rightSide.top,
+.bodyBox.rightSide.bottom {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    background: rosybrown;
+    border: 4px solid brown;
+}
+
+.bodyBox.rightSide.top {
+    margin-bottom: 2.5px;
+}
+
+.bodyBox.rightSide.bottom {
+    margin-top: 2.5px;
+}
+
+.footerBox {
+    display: flex;
+    background-color: lightblue;
+    padding: 15px;
+    border: 4px solid blue;
+  }
+
+.footerBox.fbOne,
+.footerBox.fbTwo,
+.footerBox.fbThree {
+    background: purple;
+    border: 4px solid brown;
+    height: 100px;
+    flex: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.footerBox.fbTwo {
+    background: peachpuff;
+    flex: 1;
+}

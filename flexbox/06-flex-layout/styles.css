@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 8px 16px;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: gray;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+
+}
+
+ul {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 15px; 
+}
+
+.left-links {
+    padding-left: 10px;
+}
+
+.right-links {
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.content {
+    flex: 1; /* This expands the search, logo, etc. to centered in the screen so header and footer aren't directly surrounding it */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #eee;
+
+}
